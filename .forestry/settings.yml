@@ -14,6 +14,7 @@ sections:
   match: "**/*"
   templates:
   - cv
+  - cv
 upload_dir: public
 public_path: "/public"
 front_matter_path: ''
