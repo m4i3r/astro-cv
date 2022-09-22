@@ -1,31 +1,31 @@
 ---
 layout: "../layouts/Layout.astro"
 name: Manuel Maier
-image: "./avatar_hat.jpg"
+image: "/public/dsc01224-1.jpg"
 function: 'Student | Software Engineer | Tech Enthusiast '
 address: Dublin, Ireland
 email: mail@maiermanuel.de
 telephone: "+353 (83) 100 3974"
 skills:
 - name: C#
-  percentage: 0
+  percentage: 40
 - name: Java
-  percentage: 0
+  percentage: 70
 - name: JavaScript
-  percentage: 0
+  percentage: 50
 - name: Docker
-  percentage: 0
+  percentage: 75
 - name: Python
-  percentage: 0
+  percentage: 60
 - name: SQL
-  percentage: 0
+  percentage: 75
 - name: Networking
-  percentage: 0
+  percentage: 80
 languages:
 - language: German
-  percentage: 25
-- language: English
   percentage: 100
+- language: English
+  percentage: 85
 experiences:
 - experience: Front End Developer / w3schools.com
   period: Jan 2015
@@ -52,6 +52,9 @@ educations:
   period: 2010 - 2013
   description: Bachelor Degree
 social:
+- name: ''
+  icon: ''
+  link: ''
 - name: Facebook
   icon: fa-facebook-official
   link: https://www.facebook.com
