@@ -1,27 +1,31 @@
 ---
 layout: "../layouts/Layout.astro"
-name: Jane Doe
+name: Manuel Maier
 image: "./avatar_hat.jpg"
-function: Designer
-address: London, UK
-email: ex@mail.com
-telephone: "1224435534"
+function: 'Student | Software Engineer | Tech Enthusiast '
+address: Dublin, Ireland
+email: mail@maiermanuel.de
+telephone: "+353 (83) 100 3974"
 skills:
-- name: Adobe Photoshop
-  percentage: 90
-- name: Photography
-  percentage: 80
-- name: Illustrator
-  percentage: 75
-- name: Media
-  percentage: 50
+- name: C#
+  percentage: 0
+- name: Java
+  percentage: 0
+- name: JavaScript
+  percentage: 0
+- name: Docker
+  percentage: 0
+- name: Python
+  percentage: 0
+- name: SQL
+  percentage: 0
+- name: Networking
+  percentage: 0
 languages:
-- language: English
-  percentage: 100
-- language: Spanish
-  percentage: 55
 - language: German
   percentage: 25
+- language: English
+  percentage: 100
 experiences:
 - experience: Front End Developer / w3schools.com
   period: Jan 2015
@@ -68,5 +72,4 @@ social:
   link: https://www.linkedin.com
 
 ---
-
 # hello
