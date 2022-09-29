@@ -11,6 +11,7 @@ import Social from '../components/Social.astro';
 import site from '../config.json';
 import Interests from '../components/Interests.astro'
 const { frontmatter } = Astro.props;
+const website = "https://" + frontmatter.website
 ---
 <!DOCTYPE html>
 <html lang={ site.siteLanguage }>
@@ -44,8 +45,9 @@ const { frontmatter } = Astro.props;
         <div class="w3-container">
           <Text text={frontmatter.function} icon="fa-briefcase" />
           <Text text={frontmatter.address} icon="fa-home" />
-          <Text text={frontmatter.email} icon="fa-envelope" />
+          <a href="mailto:mail@maiermanuel.de"><Text text={frontmatter.email} icon="fa-envelope" /></a>
           <Text text={frontmatter.telephone} icon="fa-phone" />
+          <a href={website} target="_blank"><Text text={frontmatter.website} icon="fa-link"/></a>
           <hr>
 
           <Subtitle text="Skills" icon="fa-asterisk" />
